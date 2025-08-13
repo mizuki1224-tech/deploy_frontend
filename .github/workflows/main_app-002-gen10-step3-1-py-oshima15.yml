@@ -6,13 +6,13 @@ name: Build and deploy Node.js app to Azure Web App - app-002-gen10-step3-1-py-o
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v4
 
